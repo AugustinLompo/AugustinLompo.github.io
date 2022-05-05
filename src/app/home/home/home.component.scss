@@ -4,7 +4,7 @@
     padding: 0px;
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
+    overflow-y: auto;
     overflow-x: hidden;
     z-index: 0;
 }
@@ -51,7 +51,6 @@ mat-icon {
     .section-container{
         font-family: 'Poppins', sans-serif;
         height: 100vh;
-        scroll-snap-type: y mandatory;
         scroll-behavior: smooth;
         overflow-y: auto;
         overflow-x: hidden;
