@@ -1,0 +1,162 @@
+
+<div class="container">
+    <div class="section-container">
+        
+        <section id="About" class="one">
+            <div class="nav">
+                <nav>
+                    <a href="#About">About</a>
+                    <a href="#Skills">Skills</a>
+                    <a href="#Projects">Projects</a>
+                    <a href="#Contact">Contact</a>
+                </nav>
+            </div>
+
+            <div class="name">
+                <h1 >
+                    Augustin <br><br class="show">  Lompo
+                </h1>
+            </div>
+            <div class="function">
+                Web developper /
+                Web designer <br><br class="show">
+                Front-end/ back-end
+            </div>
+            <div>
+                <img src="../../../assets/front-1.png" alt="">
+
+            </div>
+            <div class="round">
+                <div class="mouse">
+                    <div class="ball">
+
+                    </div>
+                    <p>scroll</p>
+                </div>
+                
+            </div>
+
+        </section>
+        <section id="Skills" class="two">
+            <h1>
+                Skills && Experience
+            </h1>
+            <div   class="images">
+                <div class="image">
+                    <img src="../../../assets/angular.png" alt="angular">
+                    <p class="image-desc">
+                        angular
+                    </p>
+                </div>
+                <div class="image">
+                    <img src="../../../assets/css.png" alt="">
+                    <p class="image-desc">
+                        Css
+                    </p>
+                    
+                </div>
+                <div class="image">
+                    <img src="../../../assets/git.png" alt="">
+                    <p class="image-desc">
+                        Git
+                    </p>
+                    
+                </div>
+                <div class="image">
+                    <img src="../../../assets/html.png" alt="">
+                    <p class="image-desc">
+                        Html
+                    </p>
+                    
+                </div>
+                <div class="image">
+                    <img src="../../../assets/javascript.png" alt="">
+                    <p class="image-desc">
+                        Javascript
+                    </p>
+                    
+                </div>
+                <div class="image">
+                    <img src="../../../assets/nodeJs.png" alt="">
+                    <p class="image-desc">
+                        NodeJs
+                    </p>
+                   
+                </div>
+                <div class="image">
+                    <img src="../../../assets/python.png" alt="">
+                    <p class="image-desc">
+                        Python
+                    </p>
+                    
+                </div>
+            </div>
+            <div  class="experience">
+                <br><br><br>
+                <div class="experience-1">
+                    <p class="experience-content-left">Sept-Dec(2020)</p>
+                    <p class="experience-content-right">Word search game</p>
+                </div>
+                <div class="experience-1">
+                    <p class="experience-content-left">Jan-May(2021)</p>
+                    <p class="experience-content-right">Chatting app</p>
+                </div>
+                <div class="experience-1">
+                    <p class="experience-content-left">Sept-Dec(2021)</p>
+                    <p class="experience-content-right">Collaborative Scrabble Game</p>
+                </div>
+                <div class="experience-1">
+                    <p class="experience-content-left">Jan-May(2022)</p>
+                    <p class="experience-content-right">Collaborative Paint app</p>
+                </div>
+                
+            </div>
+        </section>
+        <section id="Projects" class="three">
+            <h1>
+                Projects
+            </h1>
+            <div class="project">
+                <div class="test" *ngFor="let item of imageMap ">
+                    <div class="project-image" [style.background-image]="'url(' + item.path + ')'" ></div>
+                    <p>{{item.title}}</p>
+                </div>
+            </div>
+        </section>
+        <section id="Contact" class="four">
+            <h1>
+                Contact Me
+            </h1>
+            <div class="contact">
+                <div class="imag">
+                    <img src="../../../assets/pink-mail.png" alt="">
+                    <p>lompopapy2808@gmail.com</p>
+
+                </div>
+                
+            </div>
+            <div class="contact number">
+                <div class="imag"> 
+                     <img src="../../../assets/pink-phone.png" alt="">
+                     <p>+1 (514) 663 2835</p>
+                </div>
+                
+            </div>
+            <br><br><br><br><br>
+            <div class="section-contact">
+                <input type="text" id="fname" name="fname" placeholder="your name"><br>
+                <input type="text" id="fname" name="fname" placeholder="your email"><br>
+                <input class="input" type="text" id="fname" name="fname" placeholder="your message">
+                <button>
+                    Send
+                </button>
+            </div>
+            <div class="end">
+
+            </div>
+        </section>
+    </div>
+    <a class="up" href="#About">
+        <mat-icon>keyboard_arrow_up</mat-icon>
+    </a>
+</div>
