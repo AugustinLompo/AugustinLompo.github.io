@@ -21,10 +21,13 @@ mat-icon {
     position: absolute;
     background-color:#e66465;
     z-index: 2;
-    margin-top: -10vh;
+    margin-top: -20vh;
     margin-left: 75vw;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
+}
+.up-2{
+    display:none;
 }
 
 .animated {
@@ -72,6 +75,9 @@ mat-icon {
     background-image: url("../../../assets/img-1.jpg");
     background-size:cover;
     display: inline-block;
+    h1{
+        font-size: 35px;
+    }
 }
 .two {
     background: linear-gradient(white,#9198e5,#e66465);
@@ -252,9 +258,9 @@ nav{
 
 .round {
     display: flex;
-    height: 18rem;
+    height: 21rem;
     background-color: white;
-    margin-top: 22%;
+    margin-top: 10%;
     border-top-left-radius: 80%;
     .mouse{
         width: 1rem;
@@ -377,9 +383,9 @@ img {
     }
     .round {
         display: flex;
-        height: 18rem;
+        height: 35rem;
         background-color: white;
-        margin-top: 15%;
+        margin-top: 2%;
         border-top-left-radius: 90%;
         .mouse{
             width: 1rem;
@@ -581,19 +587,6 @@ img {
         nav{
             margin-right: 2rem;
         }
-        .up{
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            border: none;
-            position: absolute;
-            background-color:#e66465;
-            z-index: 2;
-            margin-top: -390vh;
-            margin-left: 90vw;
-            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-        
-        }
         .container{
           margin: 0px;
           padding: 0px;
@@ -755,7 +748,7 @@ img {
                 display:grid;
                 margin-left: 10rem;
                 width: 80vw;
-                height: 140vh;
+                height: 162vh;
                 overflow-y: hidden;
                 scroll-snap-type: x mandatory;
                 overflow-x: auto;
@@ -776,7 +769,7 @@ img {
             }
             .project-image{
                 margin-right:1.5rem ;
-                height: 40rem ;
+                height: 30rem ;
                 width: 25rem;
                 background-color: red;
                 background-size: cover;
